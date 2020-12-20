@@ -48,8 +48,7 @@ final class AssetsTest extends TestCase
     {
         $bundle = new $bundleClass();
 
-        [$bundle->basePath, $bundle->baseUrl] = $this->assetManager->getPublish()->publish(
-            $this->assetManager,
+        [$bundle->basePath, $bundle->baseUrl] = $this->assetManager->getPublisher()->publish(
             $bundle
         );
 

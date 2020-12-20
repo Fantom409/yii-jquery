@@ -12,4 +12,5 @@ return [
         '@baseUrl' => '/baseUrl',
         '@npm' => '@root/node_modules',
     ],
+    \Psr\Log\LoggerInterface::class => \Psr\Log\NullLogger::class
 ];

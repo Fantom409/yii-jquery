@@ -20,6 +20,8 @@ Thumbs.db
 # composer itself is not needed
 composer.phar
 
+package-lock.json
+
 # Mac DS_Store Files
 .DS_Store
 
@@ -27,6 +29,8 @@ composer.phar
 phpunit.phar
 # local phpunit config
 /phpunit.xml
+
+.phpunit.result.cache
 
 # local tests configuration
 /tests/data/config.local.php
